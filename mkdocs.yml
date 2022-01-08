@@ -1,9 +1,27 @@
-site_name: Python Data Object Model
+site_name: Python Data Model
 nav:
-    - Overview: overview.md
-    - __new__: new.md
-    - __init__: init.md
-    - __del__: del.md
+    - Objects, Values and Types:
+        - 01 - Objects, Values and Types/placeholder.md
+    - Standard Type Hierarchy:
+        - 02 - Standard Type Hierarchy/placeholder.md
+    - Dunder Methods:
+        - Basic Configuration:
+          - __new__: 03 - Dunder Methods/03.01 - Basic Configuration/__new__.md
+          - __int__: 03 - Dunder Methods/03.01 - Basic Configuration/__init__.md
+          - __del__: 03 - Dunder Methods/03.01 - Basic Configuration/__del__.md
+          - __repr__: 03 - Dunder Methods/03.01 - Basic Configuration/__repr__.md
+          - __str__: 03 - Dunder Methods/03.01 - Basic Configuration/__str__.md
+          - __bytes__: 03 - Dunder Methods/03.01 - Basic Configuration/__bytes__.md
+          - __format__: 03 - Dunder Methods/03.01 - Basic Configuration/__format__.md
+          - __hash__: 03 - Dunder Methods/03.01 - Basic Configuration/__hash__.md
+          - __bool__: 03 - Dunder Methods/03.01 - Basic Configuration/__bool__.md
+          - __lt__: 03 - Dunder Methods/03.01 - Basic Configuration/__lt__.md
+          - __le__: 03 - Dunder Methods/03.01 - Basic Configuration/__le__.md
+          - __eq__: 03 - Dunder Methods/03.01 - Basic Configuration/__eq__.md
+          - __ne__: 03 - Dunder Methods/03.01 - Basic Configuration/__ne__.md
+          - __gt__: 03 - Dunder Methods/03.01 - Basic Configuration/__gt__.md
+          - __ge__: 03 - Dunder Methods/03.01 - Basic Configuration/__ge__.md
+
 theme:
   name: material
 
