@@ -1,5 +1,6 @@
 site_name: Python Data Model
 nav:
+    - Landing: index.md
     - Objects, Values and Types:
         - 01 - Objects, Values and Types/placeholder.md
     - Standard Type Hierarchy:
