@@ -1,0 +1,12 @@
+site_name: Python Data Object Model
+nav:
+    - Overview: overview.md
+    - __new__: new.md
+    - __init__: init.md
+    - __del__: del.md
+theme:
+  name: material
+
+plugins:
+    - search
+    - mkdocstrings
