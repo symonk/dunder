@@ -1,4 +1,14 @@
 site_name: Python Data Model
+markdown_extensions:
+    - attr_list
+    - pymdownx.highlight:
+        anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+    - pymdownx.emoji:
+          emoji_index: !!python/name:materialx.emoji.twemoji
+          emoji_generator: !!python/name:materialx.emoji.to_svg
 nav:
     - Landing: index.md
     - Objects, Values and Types:
