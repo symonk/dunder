@@ -18,7 +18,7 @@ nav:
     - Dunder Methods:
         - Basic Configuration:
           - __new__: 03 - Dunder Methods/03.01 - Basic Configuration/__new__.md
-          - __int__: 03 - Dunder Methods/03.01 - Basic Configuration/__init__.md
+          - __init__: 03 - Dunder Methods/03.01 - Basic Configuration/__init__.md
           - __del__: 03 - Dunder Methods/03.01 - Basic Configuration/__del__.md
           - __repr__: 03 - Dunder Methods/03.01 - Basic Configuration/__repr__.md
           - __str__: 03 - Dunder Methods/03.01 - Basic Configuration/__str__.md
