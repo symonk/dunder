@@ -32,6 +32,8 @@ nav:
           - __ne__: 03 - Dunder Methods/03.01 - Basic Configuration/__ne__.md
           - __gt__: 03 - Dunder Methods/03.01 - Basic Configuration/__gt__.md
           - __ge__: 03 - Dunder Methods/03.01 - Basic Configuration/__ge__.md
+    - Builtins:
+        - abs: 04 - Builtins/abs.md
 
 theme:
   name: material
