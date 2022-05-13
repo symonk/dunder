@@ -1,14 +1,4 @@
-site_name: Python Data Model
-markdown_extensions:
-    - attr_list
-    - pymdownx.highlight:
-        anchor_linenums: true
-    - pymdownx.inlinehilite
-    - pymdownx.snippets
-    - pymdownx.superfences
-    - pymdownx.emoji:
-          emoji_index: !!python/name:materialx.emoji.twemoji
-          emoji_generator: !!python/name:materialx.emoji.to_svg
+site_name: Python Dunder & Builtins
 nav:
     - Landing: index.md
     - Objects, Values and Types:
@@ -40,4 +30,33 @@ theme:
 
 plugins:
     - search
-    - mkdocstrings
+    - mkdocstrings:
+        default_handler: python
+        handlers:
+          python:
+            selection:
+              docstring_style: sphinx
+            rendering:
+              line_length: 88
+              show_if_no_docstring: false
+              merge_init_into_class: true
+              show_source: false
+              docstring_section_style: table
+        watch:
+          - asserto/
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+copyright: Copyright &copy; 2016 - 2022 Simon Kerr
