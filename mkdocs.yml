@@ -7,23 +7,23 @@ nav:
         - 02 - Standard Type Hierarchy/placeholder.md
     - Dunder Methods:
         - Basic Configuration:
-          - __new__: 03 - Dunder Methods/03.01 - Basic Configuration/__new__.md
-          - __init__: 03 - Dunder Methods/03.01 - Basic Configuration/__init__.md
-          - __del__: 03 - Dunder Methods/03.01 - Basic Configuration/__del__.md
-          - __repr__: 03 - Dunder Methods/03.01 - Basic Configuration/__repr__.md
-          - __str__: 03 - Dunder Methods/03.01 - Basic Configuration/__str__.md
-          - __bytes__: 03 - Dunder Methods/03.01 - Basic Configuration/__bytes__.md
-          - __format__: 03 - Dunder Methods/03.01 - Basic Configuration/__format__.md
-          - __hash__: 03 - Dunder Methods/03.01 - Basic Configuration/__hash__.md
-          - __bool__: 03 - Dunder Methods/03.01 - Basic Configuration/__bool__.md
-          - __lt__: 03 - Dunder Methods/03.01 - Basic Configuration/__lt__.md
-          - __le__: 03 - Dunder Methods/03.01 - Basic Configuration/__le__.md
-          - __eq__: 03 - Dunder Methods/03.01 - Basic Configuration/__eq__.md
-          - __ne__: 03 - Dunder Methods/03.01 - Basic Configuration/__ne__.md
-          - __gt__: 03 - Dunder Methods/03.01 - Basic Configuration/__gt__.md
-          - __ge__: 03 - Dunder Methods/03.01 - Basic Configuration/__ge__.md
+          - __new__: Dunder Methods/__new__.md
+          - __init__: Dunder Methods/__init__.md
+          - __del__: Dunder Methods/__del__.md
+          - __repr__: Dunder Methods/__repr__.md
+          - __str__: Dunder Methods/__str__.md
+          - __bytes__: Dunder Methods/__bytes__.md
+          - __format__: Dunder Methods/__format__.md
+          - __hash__: Dunder Methods/__hash__.md
+          - __bool__: Dunder Methods/__bool__.md
+          - __lt__: Dunder Methods/__lt__.md
+          - __le__: Dunder Methods/__le__.md
+          - __eq__: Dunder Methods/__eq__.md
+          - __ne__: Dunder Methods/__ne__.md
+          - __gt__: Dunder Methods/__gt__.md
+          - __ge__: Dunder Methods/__ge__.md
     - Builtins:
-        - abs: 04 - Builtins/abs.md
+        - abs: Builtins/abs.md
 
 theme:
   name: material
