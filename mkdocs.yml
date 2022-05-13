@@ -1,32 +1,42 @@
-site_name: Python Dunder & Builtins
-nav:
-    - Landing: index.md
-    - Objects, Values and Types:
-        - 01 - Objects, Values and Types/placeholder.md
-    - Standard Type Hierarchy:
-        - 02 - Standard Type Hierarchy/placeholder.md
-    - Dunder Methods:
-        - Basic Configuration:
-          - __new__: Dunder Methods/__new__.md
-          - __init__: Dunder Methods/__init__.md
-          - __del__: Dunder Methods/__del__.md
-          - __repr__: Dunder Methods/__repr__.md
-          - __str__: Dunder Methods/__str__.md
-          - __bytes__: Dunder Methods/__bytes__.md
-          - __format__: Dunder Methods/__format__.md
-          - __hash__: Dunder Methods/__hash__.md
-          - __bool__: Dunder Methods/__bool__.md
-          - __lt__: Dunder Methods/__lt__.md
-          - __le__: Dunder Methods/__le__.md
-          - __eq__: Dunder Methods/__eq__.md
-          - __ne__: Dunder Methods/__ne__.md
-          - __gt__: Dunder Methods/__gt__.md
-          - __ge__: Dunder Methods/__ge__.md
-    - Builtins:
-        - abs: Builtins/abs.md
-
+site_name: Dunder
+site_description: A resource for all python dunder and builtins.
+site_url:
 theme:
   name: material
+  features:
+    - content.code.annotate
+  palette:
+    primary: light blue
+    accent: purple
+  font:
+    text: Work Sans
+    code: Work Sans
+  icon:
+    repo: fontawesome/brands/git
+repo_name: symonk/dunder
+repo_url: https://github.com/symonk/dunder/
+edit_uri: ""
+
+nav:
+    - Landing: index.md
+    - Dunder Methods:
+        - __new__: Dunder Methods/__new__.md
+        - __init__: Dunder Methods/__init__.md
+        - __del__: Dunder Methods/__del__.md
+        - __repr__: Dunder Methods/__repr__.md
+        - __str__: Dunder Methods/__str__.md
+        - __bytes__: Dunder Methods/__bytes__.md
+        - __format__: Dunder Methods/__format__.md
+        - __hash__: Dunder Methods/__hash__.md
+        - __bool__: Dunder Methods/__bool__.md
+        - __lt__: Dunder Methods/__lt__.md
+        - __le__: Dunder Methods/__le__.md
+        - __eq__: Dunder Methods/__eq__.md
+        - __ne__: Dunder Methods/__ne__.md
+        - __gt__: Dunder Methods/__gt__.md
+        - __ge__: Dunder Methods/__ge__.md
+    - Builtins:
+        - abs: Builtins/abs.md
 
 plugins:
     - search
@@ -43,7 +53,7 @@ plugins:
               show_source: false
               docstring_section_style: table
         watch:
-          - asserto/
+          - dunder/
 markdown_extensions:
   - admonition
   - attr_list
